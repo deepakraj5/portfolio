@@ -238,6 +238,7 @@ nav.sticky .nav-links li a {
 #profile {
     height: 100vh;
     background-color: #FFF6E6;
+    width: 130%;
 }
 
 
@@ -421,6 +422,7 @@ nav.sticky .nav-links li a {
     background-color: black;
     color: white;
     padding: 60px;
+    width: 130%;
 }
 
 .contact-hd {
