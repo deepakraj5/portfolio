@@ -26,8 +26,6 @@ document.getElementById('skills-menu').addEventListener('click', navToggle)
 
 document.getElementById('contact-menu').addEventListener('click', navToggle)
 
-document.getElementById('subscribe-menu').addEventListener('click', navToggle)
-
 var nameID = document.getElementById('name')
 
 var name = 'eepakraj S'
