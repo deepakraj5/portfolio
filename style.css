@@ -296,9 +296,17 @@ nav.sticky .nav-links li a {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
     .skills-grid {
         height: 25%;
+    }
+
+    #skills {
+        height: 55vh;
+    }
+
+    .skills-container {
+        height: 40vh;
     }
 }
 
