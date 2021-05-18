@@ -295,6 +295,13 @@ nav.sticky .nav-links li a {
     /* border: 1px solid green; */
 }
 
+
+@media screen and (max-width: 480px) {
+    .skills-grid {
+        height: 25%;
+    }
+}
+
 .skills-grid-item-1 {
     background-color: grey;
     cursor: pointer;
