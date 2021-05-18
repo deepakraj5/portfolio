@@ -237,8 +237,41 @@ nav.sticky .nav-links li a {
 
 #profile {
     height: 100vh;
-    background-color: blue;
+    background-color: #FFF6E6;
 }
+
+
+.profile-pr {
+    padding: 4.5rem;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+@media screen and (max-width: 1050px) {
+    .profile-pr {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .profile-pr {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profile-pr {
+        font-size: 20px;
+    }
+
+    #profile {
+        height: 60vh;
+    }
+}
+
+
 
 #skills {
     height: 100vh;
@@ -259,11 +292,11 @@ nav.sticky .nav-links li a {
     padding: 10px;
     width: 1200px;
     text-align: center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .skills-grid-item-1 {
-    background-color: fuchsia;
+    background-color: grey;
     cursor: pointer;
     margin-left: -50px;
     transition: ease-in 0.5s;
@@ -278,7 +311,7 @@ nav.sticky .nav-links li a {
 }
 
 .skills-grid-item-2 {
-    background-color: green;
+    background-color: whitesmoke;
     cursor: pointer;
     margin-left: -50px;
     transition: ease-in 0.5s;
@@ -293,7 +326,7 @@ nav.sticky .nav-links li a {
 }
 
 .skills-grid-item-3 {
-    background-color: rebeccapurple;
+    background-color: rgb(34, 197, 34);
     cursor: pointer;
     margin-left: -50px;
     transition: ease-in 0.5s;
@@ -308,7 +341,7 @@ nav.sticky .nav-links li a {
 }
 
 .skills-grid-item-4 {
-    background-color: gold;
+    background-color: rgb(64, 64, 172);
     cursor: pointer;
     margin-left: -50px;
     transition: ease-in 0.5s;
@@ -323,7 +356,7 @@ nav.sticky .nav-links li a {
 }
 
 .skills-grid-item-5 {
-    background-color: grey;
+    background-color: blue;
     cursor: pointer;
     margin-left: -50px;
     transition: ease-in 0.5s;
@@ -369,9 +402,29 @@ nav.sticky .nav-links li a {
 }
 
 #contact {
-    height: 100vh;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    padding: 60px;
 }
 
-#subscribe {
-    height: 100vh;
+.contact-hd {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.contact-blog {
+    padding: 10px;
+}
+
+.contact-img {
+    width: auto;
+    height: 6rem;
+    padding: 20px;
+    /* border-radius: 10rem; */
+}
+
+.contact-rig {
+    padding-top: 50px;
 }
